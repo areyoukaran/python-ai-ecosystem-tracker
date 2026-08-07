@@ -19,11 +19,11 @@
     },
     {
       "repository": "fastapi/fastapi",
-      "stars": 101385,
+      "stars": 101386,
       "forks": 9752,
       "open_issues": 73,
       "watchers": 772,
-      "updated_at": "2026-08-07T15:19:20Z"
+      "updated_at": "2026-08-07T15:32:44Z"
     },
     {
       "repository": "scikit-learn/scikit-learn",
@@ -52,8 +52,8 @@
     {
       "repository": "langchain-ai/langchain",
       "stars": 143625,
-      "forks": 23928,
-      "open_issues": 453,
+      "forks": 23929,
+      "open_issues": 451,
       "watchers": 908,
       "updated_at": "2026-08-07T15:08:34Z"
     },
