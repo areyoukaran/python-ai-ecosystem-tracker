@@ -98,6 +98,23 @@ jobs:
           fi
 
       # --------------------------------
+      # Ecosystem report
+      # --------------------------------
+
+      - name: Generate ecosystem report
+        run: python scripts/generate_report.py
+
+      - name: Commit ecosystem report
+        run: |
+          git add reports/
+
+          if git diff --cached --quiet; then
+            echo "No report changes"
+          else
+            git commit -m "report: update ecosystem report"
+          fi
+
+      # --------------------------------
       # Push everything
       # --------------------------------
 
