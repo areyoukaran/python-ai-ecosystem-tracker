@@ -1,21 +1,20 @@
 {
-  "collected_at": "2026-08-07T14:58:58.749070+00:00",
   "repositories": [
     {
       "repository": "pytorch/pytorch",
-      "stars": 102260,
+      "stars": 102261,
       "forks": 28766,
       "open_issues": 18542,
       "watchers": 1809,
-      "updated_at": "2026-08-07T14:39:59Z"
+      "updated_at": "2026-08-07T15:00:16Z"
     },
     {
       "repository": "huggingface/transformers",
-      "stars": 163437,
+      "stars": 163438,
       "forks": 34140,
       "open_issues": 2349,
       "watchers": 1232,
-      "updated_at": "2026-08-07T14:56:17Z"
+      "updated_at": "2026-08-07T15:00:15Z"
     },
     {
       "repository": "fastapi/fastapi",
@@ -27,11 +26,11 @@
     },
     {
       "repository": "scikit-learn/scikit-learn",
-      "stars": 66933,
+      "stars": 66934,
       "forks": 27268,
       "open_issues": 2112,
       "watchers": 2126,
-      "updated_at": "2026-08-07T14:39:04Z"
+      "updated_at": "2026-08-07T15:00:54Z"
     },
     {
       "repository": "pandas-dev/pandas",
@@ -44,7 +43,7 @@
     {
       "repository": "numpy/numpy",
       "stars": 32520,
-      "forks": 12619,
+      "forks": 12620,
       "open_issues": 2329,
       "watchers": 601,
       "updated_at": "2026-08-07T14:39:34Z"
@@ -61,7 +60,7 @@
       "repository": "django/django",
       "stars": 88389,
       "forks": 34120,
-      "open_issues": 446,
+      "open_issues": 445,
       "watchers": 2283,
       "updated_at": "2026-08-07T13:56:03Z"
     }
