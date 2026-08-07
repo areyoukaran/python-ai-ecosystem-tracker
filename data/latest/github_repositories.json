@@ -20,7 +20,7 @@
     {
       "repository": "fastapi/fastapi",
       "stars": 101385,
-      "forks": 9753,
+      "forks": 9752,
       "open_issues": 73,
       "watchers": 772,
       "updated_at": "2026-08-07T15:19:20Z"
@@ -45,7 +45,7 @@
       "repository": "numpy/numpy",
       "stars": 32520,
       "forks": 12620,
-      "open_issues": 2329,
+      "open_issues": 2328,
       "watchers": 601,
       "updated_at": "2026-08-07T14:39:34Z"
     },
