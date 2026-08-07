@@ -3,9 +3,9 @@
   "summary": {
     "repositories_tracked": 8,
     "packages_tracked": 8,
-    "total_stars": 748039,
-    "total_forks": 190839,
-    "total_open_issues": 29195
+    "total_stars": 748040,
+    "total_forks": 190840,
+    "total_open_issues": 29193
   },
   "top_by_stars": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "repository": "fastapi/fastapi",
-      "stars": 101385
+      "stars": 101386
     },
     {
       "repository": "django/django",
@@ -60,7 +60,7 @@
     },
     {
       "repository": "langchain-ai/langchain",
-      "forks": 23928
+      "forks": 23929
     },
     {
       "repository": "pandas-dev/pandas",
