@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -45,6 +46,7 @@ def get_repository_data(repository):
 
 
 def main():
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     repositories = []
 
@@ -56,18 +58,36 @@ def main():
             print(f"Failed to fetch {repository}: {error}")
 
     output = {
+        "date": today,
         "repositories": repositories,
     }
 
     root = Path(__file__).resolve().parent.parent
 
-    output_directory = root / "data" / "latest"
-    output_directory.mkdir(parents=True, exist_ok=True)
+    # Latest repository statistics
+    latest_directory = root / "data" / "latest"
 
-    output_file = output_directory / "github_repositories.json"
+    # Historical repository statistics
+    history_directory = root / "data" / "github"
 
-    with open(output_file, "w", encoding="utf-8") as file:
+    latest_directory.mkdir(parents=True, exist_ok=True)
+    history_directory.mkdir(parents=True, exist_ok=True)
+
+    latest_file = latest_directory / "github_repositories.json"
+    history_file = history_directory / f"{today}.json"
+
+    # Always refresh latest statistics
+    with open(latest_file, "w", encoding="utf-8") as file:
         json.dump(output, file, indent=2)
+
+    # Historical snapshot should only be created once per day
+    if not history_file.exists():
+        with open(history_file, "w", encoding="utf-8") as file:
+            json.dump(output, file, indent=2)
+
+        print(f"Created GitHub history snapshot: {today}")
+    else:
+        print(f"GitHub history snapshot already exists: {today}")
 
     print("GitHub repository statistics updated.")
 
