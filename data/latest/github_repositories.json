@@ -5,7 +5,7 @@
       "repository": "pytorch/pytorch",
       "stars": 102262,
       "forks": 28767,
-      "open_issues": 18543,
+      "open_issues": 18541,
       "watchers": 1809,
       "updated_at": "2026-08-07T15:07:16Z"
     },
@@ -53,7 +53,7 @@
       "repository": "langchain-ai/langchain",
       "stars": 143625,
       "forks": 23928,
-      "open_issues": 452,
+      "open_issues": 453,
       "watchers": 908,
       "updated_at": "2026-08-07T15:08:34Z"
     },
