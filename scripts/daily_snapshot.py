@@ -43,9 +43,17 @@ def main():
         except Exception as error:
             print(f"Failed to fetch {package}: {error}")
 
+    # Historical snapshot.
+    # This file is created only once per day.
     snapshot = {
         "date": today,
         "collected_at": now.isoformat(),
+        "packages": packages,
+    }
+
+    # Latest state.
+    # No timestamp here so this file only changes when package data changes.
+    latest_data = {
         "packages": packages,
     }
 
@@ -60,13 +68,20 @@ def main():
     daily_file = daily_directory / f"{today}.json"
     latest_file = latest_directory / "packages.json"
 
-    with open(daily_file, "w", encoding="utf-8") as file:
-        json.dump(snapshot, file, indent=2)
+    # Never overwrite an existing snapshot for the same day.
+    if not daily_file.exists():
+        with open(daily_file, "w", encoding="utf-8") as file:
+            json.dump(snapshot, file, indent=2)
 
+        print(f"Created daily snapshot: {today}")
+    else:
+        print(f"Daily snapshot already exists: {today}")
+
+    # Update latest data only when the actual package information differs.
     with open(latest_file, "w", encoding="utf-8") as file:
-        json.dump(snapshot, file, indent=2)
+        json.dump(latest_data, file, indent=2)
 
-    print(f"Snapshot created for {today}")
+    print("Latest package data checked.")
 
 
 if __name__ == "__main__":
