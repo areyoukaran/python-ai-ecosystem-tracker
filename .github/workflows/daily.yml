@@ -14,6 +14,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # --------------------------------
+      # Setup
+      # --------------------------------
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -23,13 +27,31 @@ jobs:
           python-version: "3.12"
 
       # --------------------------------
-      # Guaranteed daily snapshot
+      # Select today's workload
+      # --------------------------------
+
+      - name: Select daily tasks
+        id: selector
+        run: python scripts/select_daily_tasks.py
+
+      - name: Show daily plan
+        run: |
+          echo "Snapshot:  ${{ steps.selector.outputs.snapshot }}"
+          echo "GitHub:    ${{ steps.selector.outputs.github }}"
+          echo "PyPI:      ${{ steps.selector.outputs.pypi }}"
+          echo "Analytics: ${{ steps.selector.outputs.analytics }}"
+          echo "Report:    ${{ steps.selector.outputs.report }}"
+
+      # --------------------------------
+      # Daily snapshot
       # --------------------------------
 
       - name: Collect daily ecosystem snapshot
+        if: steps.selector.outputs.snapshot == 'true'
         run: python scripts/daily_snapshot.py
 
       - name: Commit daily snapshot
+        if: steps.selector.outputs.snapshot == 'true'
         run: |
           git config user.name "areyoukaran"
           git config user.email "kashyapkaran483@gmail.com"
@@ -48,11 +70,13 @@ jobs:
       # --------------------------------
 
       - name: Collect GitHub repository statistics
+        if: steps.selector.outputs.github == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/github_tracker.py
 
       - name: Commit repository statistics
+        if: steps.selector.outputs.github == 'true'
         run: |
           git add data/latest/github_repositories.json
           git add data/github/
@@ -68,9 +92,11 @@ jobs:
       # --------------------------------
 
       - name: Check for PyPI releases
+        if: steps.selector.outputs.pypi == 'true'
         run: python scripts/pypi_release_tracker.py
 
       - name: Commit PyPI release changes
+        if: steps.selector.outputs.pypi == 'true'
         run: |
           git add -A data/releases/
 
@@ -85,9 +111,11 @@ jobs:
       # --------------------------------
 
       - name: Generate ecosystem analytics
+        if: steps.selector.outputs.analytics == 'true'
         run: python scripts/generate_analytics.py
 
       - name: Commit ecosystem analytics
+        if: steps.selector.outputs.analytics == 'true'
         run: |
           git add analytics/
 
@@ -102,9 +130,11 @@ jobs:
       # --------------------------------
 
       - name: Generate ecosystem report
+        if: steps.selector.outputs.report == 'true'
         run: python scripts/generate_report.py
 
       - name: Commit ecosystem report
+        if: steps.selector.outputs.report == 'true'
         run: |
           git add reports/
 
@@ -115,7 +145,7 @@ jobs:
           fi
 
       # --------------------------------
-      # Push everything
+      # Push selected changes
       # --------------------------------
 
       - name: Push changes
