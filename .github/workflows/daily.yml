@@ -22,20 +22,49 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect ecosystem data
+      # --------------------------------
+      # Guaranteed daily snapshot
+      # --------------------------------
+
+      - name: Collect daily ecosystem snapshot
         run: python scripts/daily_snapshot.py
 
-      - name: Commit snapshot
+      - name: Commit daily snapshot
         run: |
           git config user.name "areyoukaran"
           git config user.email "kashyapkaran483@gmail.com"
 
-          git add data/
+          git add data/daily/
+          git add data/latest/packages.json
 
           if git diff --cached --quiet; then
-            echo "No changes detected"
-            exit 0
+            echo "No daily snapshot changes"
+          else
+            git commit -m "data: add daily ecosystem snapshot"
           fi
 
-          git commit -m "data: add daily ecosystem snapshot"
-          git push
+      # --------------------------------
+      # GitHub repository statistics
+      # --------------------------------
+
+      - name: Collect GitHub repository statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/github_tracker.py
+
+      - name: Commit repository statistics
+        run: |
+          git add data/latest/github_repositories.json
+
+          if git diff --cached --quiet; then
+            echo "No repository statistics changed"
+          else
+            git commit -m "data: update GitHub repository statistics"
+          fi
+
+      # --------------------------------
+      # Push everything
+      # --------------------------------
+
+      - name: Push changes
+        run: git push
