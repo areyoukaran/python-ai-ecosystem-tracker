@@ -6,9 +6,9 @@ Automatically generated from the repository's daily ecosystem dataset.
 
 - **Repositories tracked:** 8
 - **Packages tracked:** 8
-- **Combined GitHub stars:** 748,039
-- **Combined forks:** 190,841
-- **Combined open issues:** 29,199
+- **Combined GitHub stars:** 748,040
+- **Combined forks:** 190,840
+- **Combined open issues:** 29,193
 
 ## Top Repositories by Stars
 
@@ -17,7 +17,7 @@ Automatically generated from the repository's daily ecosystem dataset.
 | 1 | huggingface/transformers | 163,437 |
 | 2 | langchain-ai/langchain | 143,625 |
 | 3 | pytorch/pytorch | 102,262 |
-| 4 | fastapi/fastapi | 101,385 |
+| 4 | fastapi/fastapi | 101,386 |
 | 5 | django/django | 88,389 |
 | 6 | scikit-learn/scikit-learn | 66,934 |
 | 7 | pandas-dev/pandas | 49,487 |
@@ -34,7 +34,7 @@ Automatically generated from the repository's daily ecosystem dataset.
 | 5 | langchain-ai/langchain | 23,929 |
 | 6 | pandas-dev/pandas | 20,244 |
 | 7 | numpy/numpy | 12,620 |
-| 8 | fastapi/fastapi | 9,753 |
+| 8 | fastapi/fastapi | 9,752 |
 
 ## Daily Repository Growth
 
