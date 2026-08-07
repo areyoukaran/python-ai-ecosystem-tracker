@@ -2,11 +2,11 @@
   "repositories": [
     {
       "repository": "pytorch/pytorch",
-      "stars": 102261,
+      "stars": 102262,
       "forks": 28766,
-      "open_issues": 18542,
+      "open_issues": 18543,
       "watchers": 1809,
-      "updated_at": "2026-08-07T15:00:16Z"
+      "updated_at": "2026-08-07T15:07:16Z"
     },
     {
       "repository": "huggingface/transformers",
@@ -50,11 +50,11 @@
     },
     {
       "repository": "langchain-ai/langchain",
-      "stars": 143624,
+      "stars": 143625,
       "forks": 23929,
       "open_issues": 454,
       "watchers": 908,
-      "updated_at": "2026-08-07T14:58:00Z"
+      "updated_at": "2026-08-07T15:08:34Z"
     },
     {
       "repository": "django/django",
@@ -62,7 +62,7 @@
       "forks": 34120,
       "open_issues": 445,
       "watchers": 2283,
-      "updated_at": "2026-08-07T13:56:03Z"
+      "updated_at": "2026-08-07T15:03:04Z"
     }
   ]
 }
