@@ -1,4 +1,5 @@
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import urlopen
 
@@ -34,9 +35,13 @@ def load_previous_versions(file_path):
 
 def main():
     root = Path(__file__).resolve().parent.parent
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     output_directory = root / "data" / "releases"
+    history_directory = output_directory / "history"
+
     output_directory.mkdir(parents=True, exist_ok=True)
+    history_directory.mkdir(parents=True, exist_ok=True)
 
     versions_file = output_directory / "current_versions.json"
     changes_file = output_directory / "release_changes.json"
@@ -56,29 +61,60 @@ def main():
             print(f"{package}: {old_version} -> {version}")
 
             if old_version is not None and old_version != version:
-                changes.append({
-                    "package": package,
-                    "previous_version": old_version,
-                    "new_version": version,
-                })
+                changes.append(
+                    {
+                        "package": package,
+                        "previous_version": old_version,
+                        "new_version": version,
+                    }
+                )
 
         except Exception as error:
             print(f"Failed to check {package}: {error}")
 
-            # Preserve previous data if API request fails
+            # Preserve the previous version if PyPI cannot be reached.
             if package in previous_versions:
                 current_versions[package] = previous_versions[package]
 
+    # Store the latest known versions.
     with open(versions_file, "w", encoding="utf-8") as file:
         json.dump(current_versions, file, indent=2, sort_keys=True)
 
     if changes:
+        release_data = {
+            "date": today,
+            "releases": changes,
+        }
+
+        # Current/latest detected changes.
         with open(changes_file, "w", encoding="utf-8") as file:
-            json.dump(changes, file, indent=2)
+            json.dump(release_data, file, indent=2)
+
+        # Permanent historical record.
+        history_file = history_directory / f"{today}.json"
+
+        if history_file.exists():
+            # If multiple tracked packages release on the same day,
+            # merge them into the same historical file.
+            with open(history_file, "r", encoding="utf-8") as file:
+                existing_data = json.load(file)
+
+            existing_releases = existing_data.get("releases", [])
+
+            for release in changes:
+                if release not in existing_releases:
+                    existing_releases.append(release)
+
+            release_data["releases"] = existing_releases
+
+        with open(history_file, "w", encoding="utf-8") as file:
+            json.dump(release_data, file, indent=2)
 
         print(f"\nDetected {len(changes)} package release(s).")
+        print(f"Release history updated: {today}")
+
     else:
-        # We don't want an old release_changes file hanging around
+        # Prevent yesterday's changes from appearing as today's changes.
         if changes_file.exists():
             changes_file.unlink()
 
