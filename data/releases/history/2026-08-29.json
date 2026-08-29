@@ -1,0 +1,10 @@
+{
+  "date": "2026-08-29",
+  "releases": [
+    {
+      "package": "transformers",
+      "previous_version": "5.15.1",
+      "new_version": "5.16.1"
+    }
+  ]
+}
