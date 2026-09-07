@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-07",
+  "releases": [
+    {
+      "package": "numpy",
+      "previous_version": "2.5.2",
+      "new_version": "2.5.3"
+    }
+  ]
+}
