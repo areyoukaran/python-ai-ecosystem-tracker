@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-20",
+  "releases": [
+    {
+      "package": "pandas",
+      "previous_version": "3.0.5",
+      "new_version": "3.0.6"
+    }
+  ]
+}
