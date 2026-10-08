@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-08",
+  "releases": [
+    {
+      "package": "fastapi",
+      "previous_version": "0.142.2",
+      "new_version": "0.143.0"
+    },
+    {
+      "package": "django",
+      "previous_version": "6.1.1",
+      "new_version": "6.1.2"
+    },
+    {
+      "package": "transformers",
+      "previous_version": "5.18.0",
+      "new_version": "5.19.0"
+    }
+  ]
+}
