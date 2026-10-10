@@ -1,4 +1,6 @@
 {
+  "date": "2026-10-10",
+  "collected_at": "2026-10-10T21:58:20.470086+00:00",
   "packages": [
     {
       "name": "fastapi",
