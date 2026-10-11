@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-11",
   "summary": {
     "repositories_tracked": 8,
     "packages_tracked": 8,
@@ -77,52 +77,52 @@
   ],
   "daily_growth": [
     {
-      "repository": "langchain-ai/langchain",
-      "stars_change": 104,
-      "forks_change": 14,
-      "issues_change": 8
-    },
-    {
       "repository": "pytorch/pytorch",
-      "stars_change": 81,
-      "forks_change": 137,
-      "issues_change": -13
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
     },
     {
       "repository": "huggingface/transformers",
-      "stars_change": 75,
-      "forks_change": 8,
-      "issues_change": -21
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
     },
     {
       "repository": "fastapi/fastapi",
-      "stars_change": 62,
-      "forks_change": 10,
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
+    },
+    {
+      "repository": "scikit-learn/scikit-learn",
+      "stars_change": 0,
+      "forks_change": 0,
       "issues_change": 0
     },
     {
       "repository": "pandas-dev/pandas",
-      "stars_change": 37,
-      "forks_change": 8,
-      "issues_change": -7
-    },
-    {
-      "repository": "scikit-learn/scikit-learn",
-      "stars_change": 12,
-      "forks_change": 4,
-      "issues_change": 2
-    },
-    {
-      "repository": "django/django",
-      "stars_change": 5,
-      "forks_change": 153,
-      "issues_change": -2
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
     },
     {
       "repository": "numpy/numpy",
       "stars_change": 0,
-      "forks_change": 1,
-      "issues_change": -3
+      "forks_change": 0,
+      "issues_change": 0
+    },
+    {
+      "repository": "langchain-ai/langchain",
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
+    },
+    {
+      "repository": "django/django",
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
     }
   ],
   "package_versions": {
