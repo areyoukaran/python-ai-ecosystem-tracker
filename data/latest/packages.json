@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "fastapi",
-      "version": "0.143.0",
+      "version": "0.143.1",
       "python_requires": ">=3.10"
     },
     {
