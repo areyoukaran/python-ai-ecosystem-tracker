@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "summary": {
     "repositories_tracked": 8,
     "packages_tracked": 8,
@@ -78,56 +78,56 @@
   "daily_growth": [
     {
       "repository": "pytorch/pytorch",
-      "stars_change": 863,
-      "forks_change": 581,
-      "issues_change": 49
+      "stars_change": 110,
+      "forks_change": 163,
+      "issues_change": 23
     },
     {
       "repository": "huggingface/transformers",
-      "stars_change": 750,
-      "forks_change": 97,
-      "issues_change": -10
+      "stars_change": 78,
+      "forks_change": 25,
+      "issues_change": -13
     },
     {
       "repository": "langchain-ai/langchain",
-      "stars_change": 287,
-      "forks_change": 39,
-      "issues_change": 2
+      "stars_change": 78,
+      "forks_change": 18,
+      "issues_change": 3
     },
     {
       "repository": "fastapi/fastapi",
-      "stars_change": 140,
-      "forks_change": 25,
-      "issues_change": 1
-    },
-    {
-      "repository": "pandas-dev/pandas",
-      "stars_change": 82,
-      "forks_change": 23,
-      "issues_change": -118
-    },
-    {
-      "repository": "scikit-learn/scikit-learn",
-      "stars_change": 72,
-      "forks_change": 34,
-      "issues_change": -6
+      "stars_change": 25,
+      "forks_change": 14,
+      "issues_change": 0
     },
     {
       "repository": "django/django",
-      "stars_change": 68,
-      "forks_change": 473,
-      "issues_change": 2
+      "stars_change": 18,
+      "forks_change": 137,
+      "issues_change": -1
+    },
+    {
+      "repository": "pandas-dev/pandas",
+      "stars_change": 16,
+      "forks_change": 11,
+      "issues_change": -53
     },
     {
       "repository": "numpy/numpy",
-      "stars_change": 47,
-      "forks_change": 8,
-      "issues_change": 4
+      "stars_change": 14,
+      "forks_change": 3,
+      "issues_change": 8
+    },
+    {
+      "repository": "scikit-learn/scikit-learn",
+      "stars_change": 13,
+      "forks_change": 9,
+      "issues_change": -7
     }
   ],
   "package_versions": {
     "django": "6.1.2",
-    "fastapi": "0.143.0",
+    "fastapi": "0.143.1",
     "flask": "3.1.3",
     "numpy": "2.5.4",
     "pandas": "3.0.6",
