@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-14",
+  "releases": [
+    {
+      "package": "fastapi",
+      "previous_version": "0.143.0",
+      "new_version": "0.143.1"
+    }
+  ]
+}
