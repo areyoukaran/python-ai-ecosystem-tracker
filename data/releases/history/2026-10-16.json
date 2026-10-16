@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-16",
+  "releases": [
+    {
+      "package": "fastapi",
+      "previous_version": "0.143.2",
+      "new_version": "0.143.3"
+    },
+    {
+      "package": "transformers",
+      "previous_version": "5.20.0",
+      "new_version": "5.20.1"
+    }
+  ]
+}
