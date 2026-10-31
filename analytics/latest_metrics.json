@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "summary": {
     "repositories_tracked": 8,
     "packages_tracked": 8,
@@ -77,52 +77,52 @@
   ],
   "daily_growth": [
     {
-      "repository": "langchain-ai/langchain",
-      "stars_change": 217,
-      "forks_change": 61,
-      "issues_change": 17
+      "repository": "pytorch/pytorch",
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
     },
     {
       "repository": "huggingface/transformers",
-      "stars_change": 162,
-      "forks_change": 53,
-      "issues_change": 5
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
     },
     {
       "repository": "fastapi/fastapi",
-      "stars_change": 59,
-      "forks_change": 23,
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
+    },
+    {
+      "repository": "scikit-learn/scikit-learn",
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
+    },
+    {
+      "repository": "pandas-dev/pandas",
+      "stars_change": 0,
+      "forks_change": 0,
       "issues_change": 0
     },
     {
       "repository": "numpy/numpy",
-      "stars_change": 36,
-      "forks_change": 59,
-      "issues_change": -8
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
     },
     {
-      "repository": "scikit-learn/scikit-learn",
-      "stars_change": 6,
-      "forks_change": 11,
-      "issues_change": -8
-    },
-    {
-      "repository": "pandas-dev/pandas",
-      "stars_change": -37,
-      "forks_change": 71,
-      "issues_change": -43
-    },
-    {
-      "repository": "pytorch/pytorch",
-      "stars_change": -75,
-      "forks_change": 92,
-      "issues_change": 29
+      "repository": "langchain-ai/langchain",
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
     },
     {
       "repository": "django/django",
-      "stars_change": -206,
-      "forks_change": 57,
-      "issues_change": 5
+      "stars_change": 0,
+      "forks_change": 0,
+      "issues_change": 0
     }
   ],
   "package_versions": {
