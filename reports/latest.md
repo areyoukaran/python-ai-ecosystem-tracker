@@ -1,4 +1,4 @@
-# Python AI Ecosystem Report — 2026-10-30
+# Python AI Ecosystem Report — 2026-10-31
 
 Automatically generated from the repository's daily ecosystem dataset.
 
@@ -40,14 +40,14 @@ Automatically generated from the repository's daily ecosystem dataset.
 
 | Repository | Stars | Forks | Issues |
 | --- | ---: | ---: | ---: |
-| langchain-ai/langchain | +217 | +61 | +17 |
-| huggingface/transformers | +162 | +53 | +5 |
-| fastapi/fastapi | +59 | +23 | +0 |
-| numpy/numpy | +36 | +59 | -8 |
-| scikit-learn/scikit-learn | +6 | +11 | -8 |
-| pandas-dev/pandas | -37 | +71 | -43 |
-| pytorch/pytorch | -75 | +92 | +29 |
-| django/django | -206 | +57 | +5 |
+| pytorch/pytorch | +0 | +0 | +0 |
+| huggingface/transformers | +0 | +0 | +0 |
+| fastapi/fastapi | +0 | +0 | +0 |
+| scikit-learn/scikit-learn | +0 | +0 | +0 |
+| pandas-dev/pandas | +0 | +0 | +0 |
+| numpy/numpy | +0 | +0 | +0 |
+| langchain-ai/langchain | +0 | +0 | +0 |
+| django/django | +0 | +0 | +0 |
 
 ## Tracked Python Package Versions
 
