@@ -1,4 +1,4 @@
-# Python AI Ecosystem Report — 2026-11-06
+# Python AI Ecosystem Report — 2026-11-08
 
 Automatically generated from the repository's daily ecosystem dataset.
 
@@ -6,55 +6,55 @@ Automatically generated from the repository's daily ecosystem dataset.
 
 - **Repositories tracked:** 8
 - **Packages tracked:** 8
-- **Combined GitHub stars:** 771,108
-- **Combined forks:** 199,147
-- **Combined open issues:** 26,826
+- **Combined GitHub stars:** 771,288
+- **Combined forks:** 199,181
+- **Combined open issues:** 26,872
 
 ## Top Repositories by Stars
 
 | Rank | Repository | Stars |
 | ---: | --- | ---: |
-| 1 | huggingface/transformers | 168,606 |
-| 2 | langchain-ai/langchain | 149,139 |
-| 3 | pytorch/pytorch | 105,217 |
-| 4 | fastapi/fastapi | 104,524 |
-| 5 | django/django | 91,670 |
-| 6 | scikit-learn/scikit-learn | 68,075 |
-| 7 | pandas-dev/pandas | 50,502 |
-| 8 | numpy/numpy | 33,375 |
+| 1 | huggingface/transformers | 168,632 |
+| 2 | langchain-ai/langchain | 149,175 |
+| 3 | pytorch/pytorch | 105,241 |
+| 4 | fastapi/fastapi | 104,554 |
+| 5 | django/django | 91,684 |
+| 6 | scikit-learn/scikit-learn | 68,086 |
+| 7 | pandas-dev/pandas | 50,524 |
+| 8 | numpy/numpy | 33,392 |
 
 ## Top Repositories by Forks
 
 | Rank | Repository | Forks |
 | ---: | --- | ---: |
-| 1 | django/django | 35,967 |
-| 2 | huggingface/transformers | 35,123 |
-| 3 | pytorch/pytorch | 31,312 |
-| 4 | scikit-learn/scikit-learn | 27,640 |
-| 5 | langchain-ai/langchain | 25,084 |
-| 6 | pandas-dev/pandas | 20,726 |
+| 1 | django/django | 35,968 |
+| 2 | huggingface/transformers | 35,136 |
+| 3 | pytorch/pytorch | 31,318 |
+| 4 | scikit-learn/scikit-learn | 27,649 |
+| 5 | langchain-ai/langchain | 25,089 |
+| 6 | pandas-dev/pandas | 20,727 |
 | 7 | numpy/numpy | 13,092 |
-| 8 | fastapi/fastapi | 10,203 |
+| 8 | fastapi/fastapi | 10,202 |
 
 ## Daily Repository Growth
 
 | Repository | Stars | Forks | Issues |
 | --- | ---: | ---: | ---: |
-| django/django | +122 | +16 | -2 |
-| pandas-dev/pandas | +118 | +13 | -27 |
-| numpy/numpy | +75 | +11 | -2 |
-| fastapi/fastapi | +67 | +13 | +0 |
-| pytorch/pytorch | +51 | +8 | +59 |
-| scikit-learn/scikit-learn | +42 | +7 | +6 |
-| langchain-ai/langchain | +35 | +3 | +5 |
-| huggingface/transformers | +19 | -1 | -13 |
+| pytorch/pytorch | +0 | +0 | +0 |
+| huggingface/transformers | +0 | +0 | +0 |
+| fastapi/fastapi | +0 | +0 | +0 |
+| scikit-learn/scikit-learn | +0 | +0 | +0 |
+| pandas-dev/pandas | +0 | +0 | +0 |
+| numpy/numpy | +0 | +0 | +0 |
+| langchain-ai/langchain | +0 | +0 | +0 |
+| django/django | +0 | +0 | +0 |
 
 ## Tracked Python Package Versions
 
 | Package | Version |
 | --- | --- |
 | django | `6.1.3` |
-| fastapi | `0.162.0` |
+| fastapi | `0.162.2` |
 | flask | `3.1.3` |
 | numpy | `2.5.4` |
 | pandas | `3.1.1` |
