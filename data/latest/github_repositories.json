@@ -3,67 +3,67 @@
   "repositories": [
     {
       "repository": "pytorch/pytorch",
-      "stars": 105299,
-      "forks": 30607,
-      "open_issues": 18161,
+      "stars": 105329,
+      "forks": 30628,
+      "open_issues": 18143,
       "watchers": 1792,
-      "updated_at": "2026-11-10T01:02:42Z"
+      "updated_at": "2026-11-10T23:35:07Z"
     },
     {
       "repository": "huggingface/transformers",
-      "stars": 168712,
-      "forks": 35149,
-      "open_issues": 1078,
-      "watchers": 1243,
-      "updated_at": "2026-11-10T01:32:56Z"
+      "stars": 168753,
+      "forks": 35163,
+      "open_issues": 1071,
+      "watchers": 1244,
+      "updated_at": "2026-11-10T22:57:30Z"
     },
     {
       "repository": "fastapi/fastapi",
-      "stars": 104599,
-      "forks": 10207,
-      "open_issues": 60,
+      "stars": 104627,
+      "forks": 10211,
+      "open_issues": 54,
       "watchers": 787,
-      "updated_at": "2026-11-09T23:21:04Z"
+      "updated_at": "2026-11-10T22:28:41Z"
     },
     {
       "repository": "scikit-learn/scikit-learn",
-      "stars": 68120,
-      "forks": 27661,
-      "open_issues": 2168,
+      "stars": 68139,
+      "forks": 27666,
+      "open_issues": 2170,
       "watchers": 2123,
-      "updated_at": "2026-11-10T00:49:58Z"
+      "updated_at": "2026-11-10T22:32:53Z"
     },
     {
       "repository": "pandas-dev/pandas",
-      "stars": 50560,
-      "forks": 20736,
-      "open_issues": 1912,
+      "stars": 50574,
+      "forks": 20743,
+      "open_issues": 1879,
       "watchers": 1148,
-      "updated_at": "2026-11-10T00:01:03Z"
+      "updated_at": "2026-11-10T23:29:47Z"
     },
     {
       "repository": "numpy/numpy",
-      "stars": 33413,
-      "forks": 13103,
-      "open_issues": 2242,
+      "stars": 33428,
+      "forks": 13106,
+      "open_issues": 2253,
       "watchers": 617,
-      "updated_at": "2026-11-10T01:39:45Z"
+      "updated_at": "2026-11-10T22:31:22Z"
     },
     {
       "repository": "langchain-ai/langchain",
-      "stars": 149282,
-      "forks": 25098,
+      "stars": 149326,
+      "forks": 25104,
       "open_issues": 737,
-      "watchers": 923,
-      "updated_at": "2026-11-10T01:44:49Z"
+      "watchers": 925,
+      "updated_at": "2026-11-10T23:33:18Z"
     },
     {
       "repository": "django/django",
-      "stars": 91702,
-      "forks": 35212,
-      "open_issues": 535,
-      "watchers": 2278,
-      "updated_at": "2026-11-10T01:44:01Z"
+      "stars": 91708,
+      "forks": 35215,
+      "open_issues": 534,
+      "watchers": 2277,
+      "updated_at": "2026-11-10T23:06:41Z"
     }
   ]
 }
