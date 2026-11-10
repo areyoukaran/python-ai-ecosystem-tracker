@@ -3,126 +3,126 @@
   "summary": {
     "repositories_tracked": 8,
     "packages_tracked": 8,
-    "total_stars": 771687,
-    "total_forks": 197773,
-    "total_open_issues": 26893
+    "total_stars": 771884,
+    "total_forks": 197836,
+    "total_open_issues": 26841
   },
   "top_by_stars": [
     {
       "repository": "huggingface/transformers",
-      "stars": 168712
+      "stars": 168753
     },
     {
       "repository": "langchain-ai/langchain",
-      "stars": 149282
+      "stars": 149326
     },
     {
       "repository": "pytorch/pytorch",
-      "stars": 105299
+      "stars": 105329
     },
     {
       "repository": "fastapi/fastapi",
-      "stars": 104599
+      "stars": 104627
     },
     {
       "repository": "django/django",
-      "stars": 91702
+      "stars": 91708
     },
     {
       "repository": "scikit-learn/scikit-learn",
-      "stars": 68120
+      "stars": 68139
     },
     {
       "repository": "pandas-dev/pandas",
-      "stars": 50560
+      "stars": 50574
     },
     {
       "repository": "numpy/numpy",
-      "stars": 33413
+      "stars": 33428
     }
   ],
   "top_by_forks": [
     {
       "repository": "django/django",
-      "forks": 35212
+      "forks": 35215
     },
     {
       "repository": "huggingface/transformers",
-      "forks": 35149
+      "forks": 35163
     },
     {
       "repository": "pytorch/pytorch",
-      "forks": 30607
+      "forks": 30628
     },
     {
       "repository": "scikit-learn/scikit-learn",
-      "forks": 27661
+      "forks": 27666
     },
     {
       "repository": "langchain-ai/langchain",
-      "forks": 25098
+      "forks": 25104
     },
     {
       "repository": "pandas-dev/pandas",
-      "forks": 20736
+      "forks": 20743
     },
     {
       "repository": "numpy/numpy",
-      "forks": 13103
+      "forks": 13106
     },
     {
       "repository": "fastapi/fastapi",
-      "forks": 10207
+      "forks": 10211
     }
   ],
   "daily_growth": [
     {
       "repository": "langchain-ai/langchain",
-      "stars_change": 107,
-      "forks_change": 9,
+      "stars_change": 151,
+      "forks_change": 15,
       "issues_change": 11
     },
     {
       "repository": "huggingface/transformers",
-      "stars_change": 80,
-      "forks_change": 13,
-      "issues_change": 16
+      "stars_change": 121,
+      "forks_change": 27,
+      "issues_change": 9
     },
     {
       "repository": "pytorch/pytorch",
-      "stars_change": 58,
-      "forks_change": -711,
-      "issues_change": 55
+      "stars_change": 88,
+      "forks_change": -690,
+      "issues_change": 37
     },
     {
       "repository": "fastapi/fastapi",
-      "stars_change": 45,
-      "forks_change": 5,
-      "issues_change": 1
-    },
-    {
-      "repository": "pandas-dev/pandas",
-      "stars_change": 36,
+      "stars_change": 73,
       "forks_change": 9,
-      "issues_change": -64
+      "issues_change": -5
     },
     {
       "repository": "scikit-learn/scikit-learn",
-      "stars_change": 34,
-      "forks_change": 12,
-      "issues_change": 5
+      "stars_change": 53,
+      "forks_change": 17,
+      "issues_change": 7
+    },
+    {
+      "repository": "pandas-dev/pandas",
+      "stars_change": 50,
+      "forks_change": 16,
+      "issues_change": -97
     },
     {
       "repository": "numpy/numpy",
-      "stars_change": 21,
-      "forks_change": 11,
-      "issues_change": -1
+      "stars_change": 36,
+      "forks_change": 14,
+      "issues_change": 10
     },
     {
       "repository": "django/django",
-      "stars_change": 18,
-      "forks_change": -756,
-      "issues_change": -2
+      "stars_change": 24,
+      "forks_change": -753,
+      "issues_change": -3
     }
   ],
   "package_versions": {
