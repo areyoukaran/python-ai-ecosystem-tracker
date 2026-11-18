@@ -1,15 +1,10 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-18",
   "releases": [
     {
       "package": "fastapi",
-      "previous_version": "0.162.7",
-      "new_version": "0.163.1"
-    },
-    {
-      "package": "numpy",
-      "previous_version": "2.5.4",
-      "new_version": "2.5.5"
+      "previous_version": "0.163.1",
+      "new_version": "0.163.2"
     }
   ]
 }
