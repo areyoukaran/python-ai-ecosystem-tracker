@@ -1,128 +1,128 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-24",
   "summary": {
     "repositories_tracked": 8,
     "packages_tracked": 8,
-    "total_stars": 773993,
-    "total_forks": 198329,
-    "total_open_issues": 27131
+    "total_stars": 774061,
+    "total_forks": 198056,
+    "total_open_issues": 27245
   },
   "top_by_stars": [
     {
       "repository": "huggingface/transformers",
-      "stars": 169288
+      "stars": 169273
     },
     {
       "repository": "langchain-ai/langchain",
-      "stars": 149929
+      "stars": 149949
     },
     {
       "repository": "pytorch/pytorch",
-      "stars": 105716
+      "stars": 105701
     },
     {
       "repository": "fastapi/fastapi",
-      "stars": 104934
+      "stars": 104943
     },
     {
       "repository": "django/django",
-      "stars": 91863
+      "stars": 91830
     },
     {
       "repository": "scikit-learn/scikit-learn",
-      "stars": 68258
+      "stars": 68300
     },
     {
       "repository": "pandas-dev/pandas",
-      "stars": 50577
+      "stars": 50609
     },
     {
       "repository": "numpy/numpy",
-      "stars": 33428
+      "stars": 33456
     }
   ],
   "top_by_forks": [
     {
       "repository": "huggingface/transformers",
-      "forks": 35252
+      "forks": 35276
     },
     {
       "repository": "django/django",
-      "forks": 35203
+      "forks": 35106
     },
     {
       "repository": "pytorch/pytorch",
-      "forks": 30765
+      "forks": 30692
     },
     {
       "repository": "scikit-learn/scikit-learn",
-      "forks": 27691
+      "forks": 27686
     },
     {
       "repository": "langchain-ai/langchain",
-      "forks": 25158
+      "forks": 25163
     },
     {
       "repository": "pandas-dev/pandas",
-      "forks": 20765
+      "forks": 20711
     },
     {
       "repository": "numpy/numpy",
-      "forks": 13117
+      "forks": 13062
     },
     {
       "repository": "fastapi/fastapi",
-      "forks": 10378
+      "forks": 10360
     }
   ],
   "daily_growth": [
     {
-      "repository": "pytorch/pytorch",
-      "stars_change": 0,
-      "forks_change": 0,
-      "issues_change": 0
-    },
-    {
-      "repository": "huggingface/transformers",
-      "stars_change": 0,
-      "forks_change": 0,
-      "issues_change": 0
-    },
-    {
-      "repository": "fastapi/fastapi",
-      "stars_change": 0,
-      "forks_change": 0,
-      "issues_change": 0
-    },
-    {
       "repository": "scikit-learn/scikit-learn",
-      "stars_change": 0,
-      "forks_change": 0,
-      "issues_change": 0
+      "stars_change": 42,
+      "forks_change": -5,
+      "issues_change": 7
     },
     {
       "repository": "pandas-dev/pandas",
-      "stars_change": 0,
-      "forks_change": 0,
-      "issues_change": 0
+      "stars_change": 32,
+      "forks_change": -54,
+      "issues_change": -23
     },
     {
       "repository": "numpy/numpy",
-      "stars_change": 0,
-      "forks_change": 0,
-      "issues_change": 0
+      "stars_change": 28,
+      "forks_change": -55,
+      "issues_change": 9
     },
     {
       "repository": "langchain-ai/langchain",
-      "stars_change": 0,
-      "forks_change": 0,
-      "issues_change": 0
+      "stars_change": 20,
+      "forks_change": 5,
+      "issues_change": 26
+    },
+    {
+      "repository": "fastapi/fastapi",
+      "stars_change": 9,
+      "forks_change": -18,
+      "issues_change": -2
+    },
+    {
+      "repository": "pytorch/pytorch",
+      "stars_change": -15,
+      "forks_change": -73,
+      "issues_change": 61
+    },
+    {
+      "repository": "huggingface/transformers",
+      "stars_change": -15,
+      "forks_change": 24,
+      "issues_change": 34
     },
     {
       "repository": "django/django",
-      "stars_change": 0,
-      "forks_change": 0,
-      "issues_change": 0
+      "stars_change": -33,
+      "forks_change": -97,
+      "issues_change": 2
     }
   ],
   "package_versions": {
@@ -133,6 +133,6 @@
     "pandas": "3.1.1",
     "scikit-learn": "1.9.1",
     "torch": "2.15.0",
-    "transformers": "5.23.0"
+    "transformers": "5.24.0"
   }
 }
